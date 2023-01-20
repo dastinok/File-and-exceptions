@@ -11,7 +11,7 @@ def main():
     count = 0
 
     # Цикл чтения всех данных
-    while line != '':
+    while line != '':  # Пока линия не равна пустой строке
         count += 1
         line = open_file.readline()
 
