@@ -8,7 +8,7 @@ def main():
     file_open = open('numbers.txt', 'r')
 
 
-    # Перебироаем строки и делаем из них целое число
+    # Перебироаем строки и делаем из них число с плавающей точкой
     for l in file_open:
         count = count + 1 # Счетчик чисел
         num = float(l)
